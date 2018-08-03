@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HorizontalProgressBarWithAngle">
+        <attr name="hpb_barColor" format="color" />
+        <attr name="hpb_progressColor" format="color" />
+    </declare-styleable>
+</resources>
