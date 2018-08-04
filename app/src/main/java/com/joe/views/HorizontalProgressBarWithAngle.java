@@ -597,8 +597,8 @@ public class HorizontalProgressBarWithAngle extends View {
         }
         int width = getMeasuredWidth() / mMax * mProgress;
         mProgressRect.set(0, 0, width, getMeasuredHeight());
-        //裁剪进度条区域
-        canvas.clipRect(mProgressRect);
+//        //裁剪进度条区域
+//        canvas.clipRect(mProgressRect);
         mPath.reset();
         canvas.clipPath(mPath); // makes the clip empty
         //mpathd的起始位置
